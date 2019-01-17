@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/alex/.nvm/versions/node/v11.6.0/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js add SQLite Studio
+  /Users/alex/.nvm/versions/node/v11.6.0/bin/node /usr/local/Cellar/yarn/1.10.1/libexec/bin/yarn.js add sqllite studio
 
 PATH: 
   /Users/alex/.nvm/versions/node/v11.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/SQLite: Not found
+  Error: https://registry.yarnpkg.com/sqllite: Not found
       at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:61073:18)
       at Request.self.callback (/usr/local/Cellar/yarn/1.10.1/libexec/lib/cli.js:120166:22)
       at Request.emit (events.js:188:13)
