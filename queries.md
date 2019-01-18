@@ -66,9 +66,8 @@ order by count(orderId) desc
 
 ## delete all users that have no orders. Should delete 17 (or 18 if you haven't deleted the record added) records.
 
-delete CustomerName
+delete from customers where(
+select CustomerName
 from customers
 left join orders on orders.customerId = customers.customerId
-where OrderId is null
-
-*this doesn't work but I don't understand why. select retrieves the objects i want to delete.
+where OrderId is null)
